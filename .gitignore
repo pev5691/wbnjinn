@@ -1,4 +1,7 @@
-
+.idea
+*.xml
+DATA
+node_modules
 # Logs
 logs
 *.log
