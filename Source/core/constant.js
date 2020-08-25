@@ -20,7 +20,7 @@ global.MINING_VERSION_NUM = 0;
 global.DEBUG_TRAFFIC = 0;
 
 global.FORK_MODE = 0;
-global.NETWORK = "NONE";
+global.NETWORK = "WBN-MAIN";
 global.START_NETWORK_DATE = 1530446400000;
 global.CONSENSUS_PERIOD_TIME = 1000;
 
@@ -131,7 +131,7 @@ global.USE_NET_FOR_SERVER_ADDRES = 1;
 
 global.STAT_MODE = 1;
 global.MAX_STAT_PERIOD = 600;
-global.WALLET_NAME = "TERA";
+global.WALLET_NAME = "WBN";
 global.WALLET_DESCRIPTION = "";
 global.USE_MINING = 0;
 global.POW_MAX_PERCENT = 50;
@@ -270,7 +270,7 @@ require("./const-mode.js");
 
 
 global.START_CODE_VERSION_NUM = UPDATE_CODE_VERSION_NUM;
-global.DEF_CLIENT = "TERA-CORE";
+global.DEF_CLIENT = "WBN-CORE";
 
 global.FIRST_TIME_BLOCK = START_NETWORK_DATE;
 global.START_BLOCK_RUN = 0;
