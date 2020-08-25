@@ -78,7 +78,7 @@ module.exports = class CConnect extends require("./transfer-msg")
         this.CommonKey = GetHexFromArr(WALLET.HashProtect(global.COMMON_KEY))
         
         this.KeyToNode = shaarr(global.COMMON_KEY)
-        this.NameToNode = this.ValueToXOR("Name", "TERA:" + global.NODES_NAME)
+        this.NameToNode = this.ValueToXOR("Name", "WBN:" + global.NODES_NAME)
     }
     
     StartConnectTry(Node)
@@ -325,7 +325,7 @@ module.exports = class CConnect extends require("./transfer-msg")
             Name = this.ValueFromXOR(Node, "Name", Data.Name)
         }
         
-        if(Name && Name.substr(0, 5) === "TERA:")
+        if(Name && Name.substr(0, 5) === "WBN:")
         {
             Node.Name = Name.substr(5)
             if(Node.BlockProcessCount < 7000000 + global.TRUST_PROCESS_COUNT)

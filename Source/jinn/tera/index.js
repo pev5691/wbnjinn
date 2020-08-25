@@ -8,7 +8,7 @@
 
 /**
  *
- * Adaptation of the JINN library with the TERA blockchain
+ * Adaptation of the JINN library with the WBN blockchain
  *
  **/
 
@@ -40,7 +40,7 @@ JINN_CONST.CONSENSUS_PERIOD_TIME = CONSENSUS_PERIOD_TIME;
 JINN_CONST.START_CHECK_BLOCKNUM = 50;
 
 
-JINN_CONST.SHARD_NAME = "TERA";
+JINN_CONST.SHARD_NAME = "WBN";
 JINN_CONST.NETWORK_NAME = global.NETWORK;
 
 JINN_CONST.MAX_PACKET_SIZE = 1200000;

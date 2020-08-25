@@ -1,5 +1,5 @@
 /*
- * @project: TERA
+ * @project: WBN
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]

@@ -1433,7 +1433,7 @@ function SaveValuesByArr(Arr,DopStr)
 
 
 var MapCurrency = {};
-MapCurrency[0] = "TERA";
+MapCurrency[0] = "W";
 MapCurrency[16] = "BTC";
 
 var bWasCodeSys = 0;
