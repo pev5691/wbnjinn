@@ -3,8 +3,11 @@
  * @version: 1.0
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2019-2020 [progr76@gmail.com]
- * Telegram:  https://t.me/progr76
-*/
+ * @Telegram:  https://t.me/progr76
+ * @copypaster: Evgeny Pustolenko pev5691 2019-2020 [pev5691@yandex.ru
+ * @facebook: https://www.facebook.com/pev5691
+ * @Telegram: https://t.me/wellbeingnetwork
+ */
 
 /**
  *
